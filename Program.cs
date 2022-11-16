@@ -21,7 +21,6 @@ Console.WriteLine($"number of numbers greater than zero = {AboveZero(n)}");
 //значения b1, k1, b2 и k2 задаются пользователем.
 void IntersectionPoint(double k1,double b1,double k2,double b2)
 {
-
 if(k1==k2 && b1==b2)
 {
 Console.WriteLine("прямые совпадают и задача имеет бесконечное множество решений");
@@ -44,6 +43,6 @@ Console.Write("введите,пожалуйста,свободный член b
 double b1 = Convert.ToDouble(Console.ReadLine());
 Console.Write("введите,пожалуйста коэффициент к2 :");
 double k2 = Convert.ToDouble(Console.ReadLine());
-Console.Write("введите,пожалуйста коэффициент b2 :");
+Console.Write("введите,пожалуйста,свободный член b2 :");
 double b2 = Convert.ToDouble(Console.ReadLine());
 IntersectionPoint(k1,b1,k2,b2);
